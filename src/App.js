@@ -1,6 +1,5 @@
-import react from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, useHistory, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/header';
 import Home from './components/pages/home';
 import Why from './components/pages/why';
@@ -18,7 +17,7 @@ function App() {
           <Route path="/" exact component={Home}></Route>
           <Route path="/why" exact component={Why}></Route>
           <Route path="/how" exact component={How}></Route>
-          <Route path="/resoures" exact component={Resources}></Route>
+          <Route path="/resources" exact component={Resources}></Route>
           <Route path="/about-us" exact component={AboutUs}></Route>
           <Route path="*" exact component={NotFoundError}></Route>
         </Switch>
