@@ -1,0 +1,203 @@
+.why .title {
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.why .title img {
+    object-fit: cover;
+    width: 425px;
+}
+.why .title .title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FCF8ED;
+    width: 700px;
+    height: 65vh;
+}
+.why .title .title-content h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 30px;
+}
+.why .title .title-content h2 {
+    color: #333333;
+    font-family: futura;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 0px 100px 0px 100px;
+    margin-bottom: 20px;
+}
+.why .title .title-content p {
+    color: #777777;
+    font-family: futura-light;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 190px 0px 190px;
+}
+.why .description {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why .description h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 30px;   
+}
+.why .description p {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    text-align: center;
+    width: 650px;
+}
+.why .description .comparison {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.why .description .comparison .normal, .why .description .comparison .healthy {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why .description .comparison .normal h1 {
+    color: #E2705A;
+    background-color: #F1BFB5;
+    font-family: lulo;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;  
+    padding: 15px;
+    width: max-content;
+}
+.why .description .comparison .healthy h1 {
+    color: #E2705A;
+    background-color: #badec2;
+    font-family: lulo;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;  
+    padding: 15px;
+    width: max-content;
+}
+.why .description .comparison .normal section {
+    background-color: #F1BFB580;
+    border-radius: 30px 0px 30px 0px;
+    width: 360px;
+    height: 150px;
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.why .description .comparison .healthy section {
+    background-color: #badec280;
+    border-radius: 30px 0px 30px 0px;
+    width: 360px;
+    height: 150px;
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.why .description .comparison .normal section p, .why .description .comparison .healthy section p {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+    width: inherit;
+}
+.why .description .comparison .normal section ul, .why .description .comparison .healthy section ul {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    text-align: left;
+    margin: 0;
+}
+.why .description h2 {
+    font-family: nimbus;
+    font-size: 23px;
+    font-weight: bold;
+    color: #80bd8d;
+    text-transform: uppercase;
+}
+.why .description h3 {
+    color: #E2705A;
+    font-size: 17px;
+    font-family: nimbus;
+    text-align: left;
+    font-weight: bold;
+    margin: 40px 0px 0px 0px;
+    align-self: center;
+    width: 650px;
+}
+.why .description h3::before, .why .description h3::after {
+    content: " - ";
+}
+.why .description p a:visited {
+    color: inherit;
+}
+hr {
+    margin: 50px;
+    width: 1000px;
+}
+.why .description .community {
+    background-color: #c2e0e980;
+    border-radius: 30px 0px 30px 0px;
+    width: 650px;
+    height: 150px;
+    padding: 40px;
+    margin: 40px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why .description .community p {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    margin: 0;
+    text-align: left;
+    width: inherit;
+}
+.why .description .community ul {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    text-align: left;
+    margin: 0;
+}
+.why .description .to-how {
+    border: solid #E2705A 10px;
+    color: #E2705A;
+    font-family: lulo;
+    margin: 50px 20px 50px 20px;
+    font-size: 24px;
+    padding: 15px;
+    text-decoration: none;
+}
+.why .description .to-how:hover {
+    color: white;
+    background-color: #E2705A;
+    transition: 0.4s;
+}

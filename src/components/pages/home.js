@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './home.css'
+import image from '../images/0bd9144b693e4ef7bcd1cc7ec3d78fbe.png'
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
                         <p>Mission: Healthy Corner Store</p>
                         <span>
                             <p>Be the change in the Mission District</p>
-                            <span></span>
+                            <span><img src={image} /></span>
                             <Link to="/how">LEARN HOW {">"}</Link>
                         </span>
                     </div>
