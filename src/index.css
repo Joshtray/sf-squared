@@ -14,6 +14,14 @@
   font-family: futura-light;
   src: url('./components/fonts/FuturaLT-Light.woff');
 }
+@font-face {
+  font-family: clarendon;
+  src: url('./components/fonts/Clarendon\ Regular.otf');
+}
+@font-face {
+  font-family: palatino;
+  src: url('./components/fonts/Palatino.ttf');
+}
 body {
   margin: 0;
 }

@@ -156,9 +156,12 @@
 .why .description p a:visited {
     color: inherit;
 }
-hr {
+.why .description hr {
     margin: 50px;
     width: 1000px;
+    background-color: black;
+    height: 1px;
+    border: none;
 }
 .why .description .community {
     background-color: #c2e0e980;

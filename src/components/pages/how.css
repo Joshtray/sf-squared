@@ -1,0 +1,79 @@
+.how .title {
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.how .title img {
+    object-fit: cover;
+    width: 425px;
+}
+.how .title .title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FCF8ED;
+    width: 700px;
+    height: 65vh;
+}
+.how .title .title-content h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 30px;
+}
+.how .title .title-content h2 {
+    color: #333333;
+    font-family: futura;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 0px 100px 0px 100px;
+    margin-bottom: 20px;
+}
+.how .title .title-content p {
+    color: #777777;
+    font-family: futura-light;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 190px 0px 190px;
+}
+.how .description {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how .description h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 30px;   
+}
+.how .description p {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    text-align: center;
+    width: 650px;
+}
+.how .description a {
+    border: solid #E2705A 10px;
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+    width: 450px;
+    font-size: 24px;
+    padding: 15px;
+    text-decoration: none;
+}
+.how .description a:hover {
+    color: white;
+    background-color: #E2705A;
+    transition: 0.4s;
+}
