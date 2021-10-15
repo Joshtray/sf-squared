@@ -90,8 +90,7 @@
 }
 .home .description section p {
     display: flex;
-    border: solid black 1px;
-    vertical-align: baseline;
+    text-align: left;
     color: #777777;
     font-family: nimbus;
     font-size: 17px;
