@@ -1,7 +1,3 @@
-@font-face {
-    font-family: nimbus;
-    src: url('./fonts/NimbusSanL-Reg.otf');
-}
 .header {
     display: flex;
     flex-direction: row;
