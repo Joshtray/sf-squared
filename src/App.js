@@ -7,6 +7,7 @@ import How from './components/pages/how';
 import Resources from './components/pages/resources';
 import AboutUs from './components/pages/about-us';
 import NotFoundError from './components/pages/404';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about-us" exact component={AboutUs}></Route>
           <Route path="*" exact component={NotFoundError}></Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

@@ -4,6 +4,7 @@
     margin-top: 0px;
     display: flex;
     align-items: center;
+    margin-bottom: 80px;
 }
 .home .slideshow .title {
     margin: auto auto auto auto;
@@ -66,5 +67,46 @@
 .home .slideshow .title .title-content span a:hover {
     background-color: inherit;
     color: black;
+    transition: 0.4s;
+}
+.home .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home .description section {
+    background-color: #BADEC2;
+    border-radius: 100px;
+    width: 600px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 50px 100px 50px 100px;
+}
+
+.home .description section h1 {
+    color: #E2705A;
+    font-family: lulo;
+    font-size: 27px;
+}
+.home .description section p {
+    display: flex;
+    border: solid black 1px;
+    vertical-align: baseline;
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+}
+
+.home .description a {
+    border: solid #E2705A 10px;
+    color: #E2705A;
+    font-family: lulo;
+    font-size: 24px;
+    padding: 15px 150px 15px 150px;
+    text-decoration: none;
+}
+.home .description a:hover {
+    color: white;
+    background-color: #E2705A;
     transition: 0.4s;
 }
