@@ -13,13 +13,13 @@
 }
 .home .slideshow .title .title-content {
     margin: 20px;
-    border: solid black 3px;
+    border: solid black 1.5px;
+    outline: solid black 1px;
     display: flex;
     flex-direction: column;
-    height: 190px;
 }
 .home .slideshow .title .title-content p {
-    border-bottom: solid black 3px;
+    border-bottom: solid black 2px;
     height: 110px;
     font-size: 45px;
     font-weight: 700;
@@ -29,8 +29,8 @@
     justify-content: center;
     width: max-content;
     margin: 0px 0px 0px 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 5px 20px 5px 20px;
+    outline: solid black 1px;
 }
 .home .slideshow .title .title-content span {
     display: flex;
@@ -41,16 +41,17 @@
     font-size: 18px;
     font-weight: 300;
     border: none;
-    border-right: solid black 3px;
+    border-right: solid black 2px;
     width: 180px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 40px 0px 40px;
+    outline: solid black 1px;
 }
 .home .slideshow .title .title-content span span {
     display: flex;
     flex-direction: row;
     flex: 1;
-    border-right: solid black 3px;
+    border-right: solid black 2px;
+    outline: solid black 1px;
 }
 .home .slideshow .title .title-content span a {
     background-color: black;
@@ -62,7 +63,8 @@
     color: white;
     width: 220px;
     text-decoration: none;
-    border: none;
+    margin-right: 0;
+    outline: solid black 1px;
 }
 .home .slideshow .title .title-content span a:hover {
     background-color: inherit;
