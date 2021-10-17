@@ -1,0 +1,76 @@
+.resources .title {
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.resources .title img {
+    object-fit: cover;
+    width: 425px;
+}
+.resources .title .title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FCF8ED;
+    width: 700px;
+    height: 65vh;
+}
+.resources .title .title-content h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 30px;
+}
+.resources .title .title-content h2 {
+    color: #333333;
+    font-family: futura;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 0px 100px 0px 100px;
+    margin-bottom: 20px;
+}
+.resources .title .title-content p {
+    color: #777777;
+    font-family: futura-light;
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 190px 0px 190px;
+}
+.resources .description {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resources .description h1 {
+    color: #E2705A;
+    font-family: lulo;
+    text-align: center;
+    font-size: 34px;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 50px;   
+}
+.resources .description p {
+    color: #777777;
+    font-family: nimbus;
+    font-size: 17px;
+    text-align: left;
+    width: 600px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.resources .description a {
+    font-family: nimbus;
+    color: #75cba8;
+    font-size: 17px;
+    text-align: left;
+    text-decoration: underline;
+    width: 650px;
+}
+.resources .description br {
+    height: 500px;
+}
