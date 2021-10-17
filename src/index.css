@@ -22,6 +22,10 @@
   font-family: palatino;
   src: url('./components/fonts/Palatino.ttf');
 }
+@font-face {
+  font-family: garamond;
+  src: url('./components/fonts/EBGaramond-Regular.ttf');
+}
 body {
   margin: 0;
 }

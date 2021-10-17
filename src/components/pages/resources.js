@@ -43,30 +43,30 @@ const Resources = () => {
                 </p>
                 <p>
                     Healthy Corner Store Alternatives. (n.d.). Retrieved from
-                    <a href="https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives" target="_blank">https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives</a>
+                    <a href="https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives" target="_blank"> https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives</a>
                 </p>
                 <p>
                     Healthy Corner Store Alternatives. (n.d.). Retrieved from
-                    <a href="https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives" target="_blank">https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives</a>
+                    <a href="https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives" target="_blank"> https://sustainableconsumption.usdn.org/initiatives-list/healthy-corner-store-alternatives</a>
                 </p>
                 <p>
                     Healthy Retail SF. (n.d.). Retrieved from <a href="http://www.healthyretailsf.org/" target="_blank">http://www.healthyretailsf.org/</a>
                 </p>
                 <p>
-                    Healthy food in convenience stores. (n.d.). Retrieved from
-                    <a href="https://www.countyhealthrankings.org/take-action-to-improve-health/what-works-for-health/strategies/healthy-food-in-convenience-stores" target="_blank">https://www.countyhealthrankings.org/take-action-to-improve-health/what-works-for-health/strategies/healthy-food-in-convenience-stores</a>
+                    Healthy food in convenience stores. (n.d.). Retrieved from 
+                    <a href="https://www.countyhealthrankings.org/take-action-to-improve-health/what-works-for-health/strategies/healthy-food-in-convenience-stores" target="_blank"> https://www.countyhealthrankings.org/take-action-to-improve-health/what-works-for-health/strategies/healthy-food-in-convenience-stores</a>
                 </p>
                 <p>
                     Home. (n.d.). Retrieved from <a href="http://thefoodtrust.org/" target="_blank">http://thefoodtrust.org/</a>
                 </p>
                 <p>
                     In Corner Stores. (n.d.). Retrieved from <a href="http://thefoodtrust.org/what-we-do/corner-
-                    store#:~:text=The Healthy Corner Store Initiative works to increase the availability,improve healthy options in communities" target="_blank">http://thefoodtrust.org/what-we-do/corner-
+                    store#:~:text=The Healthy Corner Store Initiative works to increase the availability,improve healthy options in communities" target="_blank"> http://thefoodtrust.org/what-we-do/corner-
                     store#:~:text=The Healthy Corner Store Initiative works to increase the availability,improve healthy options in communities</a>
                 </p>
                 <p>
                     Lombardo, C. (2019, December 11). Where to place plant-based foods in grocery stores.
-                    Strategy Online. <a href="https://strategyonline.ca/2019/12/11/where-to-place-plant-based-foods-in-grocery-stores-report/" target="_blank">https://strategyonline.ca/2019/12/11/where-to-place-plant-based-foods-in-grocery-stores-report/</a>
+                    Strategy Online. <a href="https://strategyonline.ca/2019/12/11/where-to-place-plant-based-foods-in-grocery-stores-report/" target="_blank"> https://strategyonline.ca/2019/12/11/where-to-place-plant-based-foods-in-grocery-stores-report/</a>
                 </p>
                 <p>
                     O’Malley, Keelia, et al. “Feasibility of Increasing Access to Healthy Foods in Neighborhood
@@ -74,27 +74,27 @@ const Resources = () => {
                     doi:10.1007/s10900-013-9673-1.
                 </p>
                 <p>
-                    San Francisco, CA. (n.d.). Retrieved from <a href="https://sunbasket.com/lifestyle/sustainable-san-francisco" target="_blank">https://sunbasket.com/lifestyle/sustainable-san-francisco</a>
+                    San Francisco, CA. (n.d.). Retrieved from <a href="https://sunbasket.com/lifestyle/sustainable-san-francisco" target="_blank"> https://sunbasket.com/lifestyle/sustainable-san-francisco</a>
                 </p>
                 <p>
                     Schneider, B. (2020, December 16). Local Lifeline: An Ode to SF's Corner Stores. Retrieved
-                    from <a href="https://www.sfweekly.com/culture/local-lifeline-an-ode-to-sfs-corner-stores/" target="_blank">https://www.sfweekly.com/culture/local-lifeline-an-ode-to-sfs-corner-stores/</a>
+                    from <a href="https://www.sfweekly.com/culture/local-lifeline-an-ode-to-sfs-corner-stores/" target="_blank"> https://www.sfweekly.com/culture/local-lifeline-an-ode-to-sfs-corner-stores/</a>
                 </p>
                 <p>
                     Taker. (2020, August 17). How Can Your Restaurant Benefit from A Plant-Based Diet? Taker.
-                    <a href="https://taker.io/blog/plant-based-diet" target="_blank">https://taker.io/blog/plant-based-diet</a>
+                    <a href="https://taker.io/blog/plant-based-diet" target="_blank"> https://taker.io/blog/plant-based-diet</a>
                 </p>
                 <p>
                     USDA Publishes Guide to Help Convenience Stores Sell Healthier Foods: USDA-FNS. (n.d.).
-                    Retrieved from <a href="https://www.fns.usda.gov/pressrelease/2016/fns-000916" target="_blank">https://www.fns.usda.gov/pressrelease/2016/fns-000916</a>
+                    Retrieved from <a href="https://www.fns.usda.gov/pressrelease/2016/fns-000916" target="_blank"> https://www.fns.usda.gov/pressrelease/2016/fns-000916</a>
                 </p>                    
                 <p>
                     Vaziri, A. (2020, March 30). Bay Area corner stores become a lifeline during the coronavirus
-                    crisis. Retrieved from <a href="https://www.sfchronicle.com/bayarea/article/Bay-Area-corner-stores-become-a-lifeline-during-15156886.php" target="_blank">https://www.sfchronicle.com/bayarea/article/Bay-Area-corner-stores-become-a-lifeline-during-15156886.php</a>
+                    crisis. Retrieved from <a href="https://www.sfchronicle.com/bayarea/article/Bay-Area-corner-stores-become-a-lifeline-during-15156886.php" target="_blank"> https://www.sfchronicle.com/bayarea/article/Bay-Area-corner-stores-become-a-lifeline-during-15156886.php</a>
                 </p>     ​
                 <p>
                     Weston, Z. (2020, February 13). 5 Reasons Plant-Based Food Is Good for Business
-                    Linkedin. <a href="https://www.linkedin.com/pulse/5-reasons-plant-based-food-good-business-zak-weston" target="_blank">https://www.linkedin.com/pulse/5-reasons-plant-based-food-good-business-zak-weston</a>
+                    Linkedin. <a href="https://www.linkedin.com/pulse/5-reasons-plant-based-food-good-business-zak-weston" target="_blank"> https://www.linkedin.com/pulse/5-reasons-plant-based-food-good-business-zak-weston</a>
                 </p>
             </div>
         </div>
