@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import './home.css'
 import image from '../images/0bd9144b693e4ef7bcd1cc7ec3d78fbe.png'
 
 const Home = () => {
+    const history = useHistory();
     return (
         <div className="home">
             <div className="slideshow">
@@ -36,7 +37,7 @@ const Home = () => {
                     <p>In this website, we provide you with a step-by-step guide to how you can make this shift in your store. There is only 3 steps to do this (see 'How' section of our website). We've crafted this website for you to read through a page, then click the button at the bottom to go to the next section of your journey.</p>
                     <p>Click the button below - the one that says "Learn Why" to proceed to the next section where we tell you about what a healthy corner store looks like and present you with benefits it provides for your business as well as your community!</p>
                 </section>
-                <Link to="/why">Learn Why {">"}</Link>
+                <a href="#" onClick={()=>(history.push('/why'))}>Learn Why {">"}</a>
             </div>
         </div>
     )

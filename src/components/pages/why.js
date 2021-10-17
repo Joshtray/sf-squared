@@ -1,10 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import './why.css'
 import image1 from '../images/03e90c0fba8e4fd4ab9fe85e2ec8f980.jpg';
 import image2 from '../images/11062b_84afa0122be54830b768a807899f2ecf_mv2.jpg'
 
 const Why = () => {
+    const history = useHistory();
     return (
         <div className="why">
             <div className="title">
@@ -129,7 +130,7 @@ const Why = () => {
                         <li>The amount of shelf space dedicated to fruits and vegetables at corner stores is positively associated with increased produce consumption among nearby residents</li>
                     </ul>
                 </section>
-                <Link to="/how" className="to-how">Next: Check out how {">"}</Link>
+                <a href="#" onClick={()=>(history.push('/how'))} className="to-how">Next: Check out how {">"}</a>
             </div>
         </div>
     )

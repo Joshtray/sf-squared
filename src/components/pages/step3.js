@@ -2,9 +2,10 @@ import React from 'react'
 import './step3.css'
 import image1 from '../images/714050847d0a4cf6bf50c682f8d63078.jpg'
 import image2 from '../images/11062b_8c36c0f41ddd40ab8bb88f7755ae571f_mv2.jpg'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 const Step3 = () => {
+    const history = useHistory();
     return (
         <div className="step-3">
             <div className="title">
@@ -43,7 +44,7 @@ const Step3 = () => {
                 <h1>Congrats!</h1>
                 <p>First of all, thank you for reading through the guide!</p>
                 <p>Now that you have read this guide, we hope you understand the need for this change, its positive impact on the community of the Mission District, and know what to do to BE the change. If you would like more information, check out more resources about this initiative for healthier corner and convenience stores.</p>
-                <Link to="/resources">More Info {">"}</Link>
+                <a href="#" onClick={()=>(history.push('/resources'))}>More Info {">"}</a>
             </div> 
         </div>
     )

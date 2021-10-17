@@ -2,9 +2,10 @@ import React from 'react'
 import './step2.css'
 import image1 from '../images/23927c_8d79fda4369f4b5e9b912f9a5a17364d_mv2.jpg'
 import image2 from '../images/11062b_ff78c39b0deb4814b7ca49b79deaa5ad_mv2.jpg'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 const Step2 = () => {
+    const history = useHistory();
     return (
         <div className="step-2">
             <div className="title">
@@ -64,7 +65,7 @@ const Step2 = () => {
                         Once you have made changes to your organization, another barrier arises in influencing customers to buy these plant-based food options consistently. No matter the subtle nudges you make to influence them, many customers will still need clear messages to encourage them to increase their plant-based food consumption. It might not be easy to influence these people. However, you can use methods like posters and flyers, to communicate the importance of shopping and eating healthy to customers, as well as the benefits of sustainable food for the environment, thus encouraging them to buy more plant-based products.
                     </p>
                 </section>
-                <Link to="/step-3" className="to-step-3">Next: Step 3! {">"}</Link>
+                <a href="#" onClick={()=>(history.push('/step-3'))} className="to-step-3">Next: Step 3! {">"}</a>
             </div>
         </div>
     )

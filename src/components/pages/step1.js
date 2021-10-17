@@ -1,10 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useHistory } from 'react-router-dom'
 import image1 from '../images/11062b_c0a0690b029f4e8cbfcdcf7f011916a0_mv2.jpg'
 import image2 from '../images/6b4d2964671f4cb18482902646ba3895.jpg'
 import './step1.css'
 
 const Step1 = () => {
+    const history = useHistory();
     return (
         <div className="step-1">
             <div className="title">
@@ -38,7 +39,7 @@ const Step1 = () => {
                     Fourth, get direct inputs from your customers! Create a survey or an opinion box where customers can contribute their opinions to help you make your healthy corner store better, for you and your customers. After all, your corner store should meet the demands of the consumers. Instead of figuring that out yourself, just ask the customers!
                     </p>
                 </div>
-                <Link to="/step-2">Next: Step 2! {">"}</Link>
+                <a href="#" onClick={()=>(history.push('/step-2'))}>Next: Step 2! {">"}</a>
             </div>
         </div>
     )
