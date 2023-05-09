@@ -25,7 +25,7 @@ const AboutUs = () => {
                     <div>
                         <h2>Marcus Mørup</h2>
                         <p>
-                        Hi! My name is Marcus, and I’m currently studying remotely from my homeland, Denmark. My main interests include economics, social science, and environmental sustainability. I’m very excited about the equality-aspect of this big question, and look very much forward to making my contributions to this exciting project!
+                        Hi! My name is Marcus, and I'm currently studying remotely from my homeland, Denmark. My main interests include economics, social science, and environmental sustainability. I'm very excited about the equality-aspect of this big question, and look very much forward to making my contributions to this exciting project!
                         </p>
                     </div>
                 </section>
@@ -34,7 +34,7 @@ const AboutUs = () => {
                     <div>
                         <h2>Jessey Uche-Nwichi</h2>
                         <p>
-                            Hi! My name is Jessey Uche-Nwichi. I’m from Nigeria and I am currently studying at Minerva remotely from Nigeria. I really like drawing and playing basketball and I am interested in programming and problem solving. I’m looking forward to working with my teammates on this project.
+                            Hi! My name is Jessey Uche-Nwichi. I'm from Nigeria and I am currently studying at Minerva remotely from Nigeria. I really like drawing and playing basketball and I am interested in programming and problem solving. I'm looking forward to working with my teammates on this project.
                         </p>
                     </div>
                 </section>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                     <div>
                         <h2>Satone Haratani</h2>
                         <p>
-                            Hello! My name is Satone Haratani and I grew up in Japan and Washington state, and currently in San Francisco. Some of my interests include environmentalism and community building. I love photography, sailing, biking, and eating good food! I’m looking forward to putting all my favorite things into this project!
+                            Hello! My name is Satone Haratani and I grew up in Japan and Washington state, and currently in San Francisco. Some of my interests include environmentalism and community building. I love photography, sailing, biking, and eating good food! I'm looking forward to putting all my favorite things into this project!
                         </p>
                     </div>
                 </section>

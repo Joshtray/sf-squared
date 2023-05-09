@@ -6,14 +6,14 @@
 }
 .step-3 .title img {
     object-fit: cover;
-    width: 425px;
+    width: 30%;
 }
 .step-3 .title .title-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #FCF8ED;
-    width: 700px;
+    width: 40%;
     height: 65vh;
 }
 .step-3 .title .title-content h1 {
@@ -62,7 +62,21 @@
 } 
 .step-3 .description .potential-partners span {
     background-color: #ffffff33;
-    width: 100px;
+    height: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.step-3 .description .potential-partners .corner-store-owners span svg g path {
+    fill: #E2705A;
+}
+.step-3 .description .potential-partners .local-farmers span svg g path {
+    fill: #608E6A;
+}
+.step-3 .description .potential-partners .fund-sponsors span svg g path {
+    fill: #5EA8BD;
 }
 .step-3 .description .potential-partners .corner-store-owners {
     background-color: #f1bfb5;

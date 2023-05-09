@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import './why.css'
 import image1 from '../images/03e90c0fba8e4fd4ab9fe85e2ec8f980.jpg';
 import image2 from '../images/11062b_84afa0122be54830b768a807899f2ecf_mv2.jpg'
@@ -25,7 +25,7 @@ const Why = () => {
                         <h1>Normal corner stores</h1>
                         <section>
                             <p>Limited available healthy food options</p>
-    ​                        <ul>
+                            <ul>
                                 <li>None or limited fresh fruits and vegetables</li>
                                 <li>High carbs and fat snack options</li>
                                 <li>Processed foods</li>
@@ -99,7 +99,7 @@ const Why = () => {
                 </p>
                 <h3>Increase in brand image and lower promotional cost</h3>
                 <p style={{textAlign: 'left', margin: 0}}>
-                It’s simple. Offering plant-based food improves your business’s image in the community, as it will be recognized for its efforts to help people live healthier lives. Your business will stand out from other corner stores because it will be known for its food diversity. This can also increase promotions and reduce promotional costs for your business because people will promote it by themselves. 
+                It’s simple. Offering plant-based food improves your business's image in the community, as it will be recognized for its efforts to help people live healthier lives. Your business will stand out from other corner stores because it will be known for its food diversity. This can also increase promotions and reduce promotional costs for your business because people will promote it by themselves. 
                 </p>
                 <h3>More versatility and variety</h3>
                 <p style={{textAlign: 'left', margin: 0}}>
@@ -109,7 +109,7 @@ const Why = () => {
                 <p style={{textAlign: 'left', margin: 0}}>
                 Unlike animal proteins, plant-based meat production occurs in sterile environments, resulting in less bacterial contamination and improving shelf life. Meat and other animal products are also susceptible to animal disease outbreaks, resulting in lower food safety. However, plant-based products are at less risk. 
                 </p>
-                <p style={{textAlign: 'left', margin: '20px'}}><a href="http://thefoodtrust.org/uploads/media_items/phcsn-sell-healthy-guide.original.pdf" target="_blank">This document</a> by The Food Trust show how healthy foods could mean better business for you.</p>
+                <p style={{textAlign: 'left', margin: '20px'}}><a href="http://thefoodtrust.org/uploads/media_items/phcsn-sell-healthy-guide.original.pdf" target="_blank" rel="noreferrer">This document</a> by The Food Trust show how healthy foods could mean better business for you.</p>
                 <hr></hr>
                 <h2>For your community</h2>
                 <p style={{color: 'black'}}>Food insecurity is a serious issue in the San Francisco Bay Area, and the Mission District is no exception. We have much existing research that shows the positive effects that increasing the selection of healthy food options can have on the demand for these products in urban neighborhoods. Increasing the selection of plant-based food options in your store will make a more substantial positive influence in your community than you imagine.</p>
@@ -130,7 +130,7 @@ const Why = () => {
                         <li>The amount of shelf space dedicated to fruits and vegetables at corner stores is positively associated with increased produce consumption among nearby residents</li>
                     </ul>
                 </section>
-                <a href="#" onClick={()=>(history.push('/how'))} className="to-how">Next: Check out how {">"}</a>
+                <a href="#top" onClick={()=>(history.push('/how'))} className="to-how">Next: Check out how {">"}</a>
             </div>
         </div>
     )

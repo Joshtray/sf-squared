@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './resources.css'
 import image1 from '../images/11062b_eeb93f94f3c44078be60030ee08dec7e_mv2_d_3732_5598_s_4_2.jpg'
 import image2 from '../images/374aee7704a34a2399a1b9918c4d1331.jpg'

@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import { Link, useHistory } from 'react-router-dom'
+import React from 'react'
+import { useHistory } from 'react-router-dom'
 import image1 from '../images/11062b_c0a0690b029f4e8cbfcdcf7f011916a0_mv2.jpg'
 import image2 from '../images/6b4d2964671f4cb18482902646ba3895.jpg'
 import './step1.css'

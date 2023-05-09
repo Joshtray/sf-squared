@@ -2,7 +2,7 @@ import React from 'react'
 import './step2.css'
 import image1 from '../images/23927c_8d79fda4369f4b5e9b912f9a5a17364d_mv2.jpg'
 import image2 from '../images/11062b_ff78c39b0deb4814b7ca49b79deaa5ad_mv2.jpg'
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 const Step2 = () => {
     const history = useHistory();

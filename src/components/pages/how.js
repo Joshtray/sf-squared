@@ -2,7 +2,7 @@ import React from 'react'
 import './how.css'
 import image1 from '../images/11062b_a1077866ede74991932f047732cf1912_mv2.jpg'
 import image2 from '../images/11062b_4fb0544b6f4a4920a9ca3a69f6448820_mv2.jpg'
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 const How = () => {
     const history = useHistory();
